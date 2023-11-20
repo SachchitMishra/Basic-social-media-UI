@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <body>
+        <h1>ThePhotoScroll</h1>
+
+        <div class="log-in-or-sign-up">
+            <!-- This is the log-in form -->
+            <h1>Log in</h1>
+            <label>Your Name</label>
+            <br>
+            <input type="text" placeholder="John">
+            <br>
+            <label>Your Password</label>
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <a href="/scroll" class="button">Log in</a>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- This is the sign-up form -->
+            <h1>Sign up</h1>
+            <label>Make a Username</label>
+            <br>
+            <input type="text" placeholder="John">
+            <br>
+            <label>Make a Password</label>
+            <br>
+            <input type="password" placeholder="Make a password that is secure ">
+            <br>
+            <a href="/new_account" class="button">Sign up</a>
+        </div>
+        
+
+    </body>
+</html>

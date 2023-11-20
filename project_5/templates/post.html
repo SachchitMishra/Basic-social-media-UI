@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <body>
+        <h1>ThePhotoScroll</h1>
+        <div>
+            <label>Name of your post</label>
+            <br>
+            <input type="text" placeholder="What is the name of your post">
+            <br>
+            <textarea id="freeform" name="freeform" rows="5" cols="25"></textarea>
+            <br>
+            <input type="text" placeholder="Enter Credits (if any)">
+            <a href="/scroll" class="button">Post</a>
+
+        </div>
+    </body>
+</html>
